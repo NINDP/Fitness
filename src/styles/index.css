@@ -1,0 +1,71 @@
+body {
+  background-color: #011c27;
+  color: #f0eff0;
+  font-family: "Noto Sans Variable", sans-serif;
+}
+
+.header {
+  padding: 10px 200px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head,
+.logo-link {
+  font-family: "Esquina Rounded", sans-serif;
+  font-size: 48px;
+}
+
+.logo-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navigation {
+  display: flex;
+  font-size: 24px;
+  gap: 30px;
+}
+
+.navigation > a {
+  text-decoration: none;
+  color: #f0eff0;
+  font-weight: 600;
+}
+
+.navigation > a:hover {
+  color: #72b2c5;
+}
+
+.phone-number {
+  font-size: 24px;
+}
+
+.light-pink-accent {
+  color: #fecee9;
+}
+
+.pink-accent {
+  color: #eb9fef;
+}
+
+.blue-accent {
+  color: #72b2c5;
+}
+
+footer {
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-footer {
+  font-size: 30px;
+  font-family: "Esquina Rounded", sans-serif;
+}
+
+.right-footer {
+  font-size: 16px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/trainers.css" />
+    <link rel="icon" type="image/png" href="./images/FITNESS.png" />
+    <title>FITNESS</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo-link" href="index.html">
+        <span class="light-pink-accent">FIT</span
+        ><span class="blue-accent">NESS</span>
+      </a>
+      <nav class="navigation">
+        <a href="services.html">Услуги</a>
+        <a href="shedule.html">Расписание</a>
+        <a href="trainers.html">Тренеры</a>
+        <a href="gallery.html">Галерея</a>
+      </nav>
+      <p class="phone-number">+7(999)-999-99-99</p>
+    </header>
+    <main>
+      <h1 class="head">
+        СОЗДАВАЙ СВОЁ ТЕЛО С
+        <span class="blue-accent">НАШИМИ</span> ПРОФЕССИОНАЛАМИ
+      </h1>
+      <section class="trainer-section">
+        <div id="trainer1" class="trainer-slide active">
+          <img class="trainer" src="images/trainer1.png" alt="фото тренера 1" />
+          <img
+            class="ellipse"
+            src="images/blueEllipse.png"
+            alt="синий эллипс"
+          />
+          <div class="trainer-info">
+            <h2 class="name-trainer">НИКИФОРОВА АНГЕЛИНА</h2>
+            <p class="experience-trainer">
+              Получила многие награды в сфере спорта, стаж работы тренером 3
+              года
+            </p>
+            <p class="info-about-trainer">
+              Ведёт персональные занятия в тренажёрном зале. Проводит групповые
+              занятия по стретчингу и фитнесу.
+            </p>
+          </div>
+        </div>
+        <div id="trainer2" class="trainer-slide">
+          <img
+            class="trainer2"
+            src="images/trainer2.png"
+            alt="фото тренера 2"
+          />
+          <img
+            class="ellipse"
+            src="images/blueEllipse.png"
+            alt="синий эллипс"
+          />
+          <div class="trainer-info">
+            <h2 class="name-trainer">ИВАНОВ ПЕТР</h2>
+            <p class="experience-trainer">
+              Сертифицированный тренер с опытом работы 5 лет
+            </p>
+            <p class="info-about-trainer">
+              Специализируется на кардиотренировках и функциональном тренинге.
+            </p>
+          </div>
+        </div>
+        <div id="trainer3" class="trainer-slide">
+          <img
+            class="trainer3"
+            src="images/trainer3.png"
+            alt="фото тренера 2"
+          />
+          <img
+            class="ellipse"
+            src="images/blueEllipse.png"
+            alt="синий эллипс"
+          />
+          <div class="trainer-info">
+            <h2 class="name-trainer">ВАСИЛЬЕВА ОЛЬГА</h2>
+            <p class="experience-trainer">
+              Сертифицированный тренер с опытом работы 2 года
+            </p>
+            <p class="info-about-trainer">
+              Специализируется на кардиотренировках и функциональном тренинге.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div onclick="nextSlide" class="arrow">
+        <img src="./images/Arrow.png" />
+      </div>
+    </main>
+    <footer>
+      <h2 class="logo-footer">
+        <span class="light-pink-accent">FIT</span
+        ><span class="blue-accent">NESS</span>
+      </h2>
+      <p class="right-footer">&copy; Все права защищены</p>
+    </footer>
+    <script src="./scripts/trainers.js"></script>
+  </body>
+</html>

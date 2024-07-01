@@ -1,0 +1,89 @@
+body {
+  background-color: #011c27;
+  color: #f0eff0;
+  font-family: "Noto Sans Variable", sans-serif;
+}
+
+.head {
+  font-size: 40px;
+  font-family: "Esquina Rounded", sans-serif;
+  text-align: center;
+  padding: 100px 0 40px;
+}
+
+main{
+    padding: 0 200px;
+}
+
+.shedule{
+    border: 1px solid #B6ACAC;
+    padding: 20px 15px;
+    width: 580px;
+    height: 150px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.right-shedule{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.head-shedule {
+    font-size: 32px;
+    font-family: "Esquina Rounded", sans-serif;
+}
+
+.p-shedule {
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.shedule > div {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.shedule > div:hover{
+    background-color: #72B2C5;
+    border: 1px solid #72B2C5;
+    border-radius: 40px;
+}
+
+.today{
+    background-color: #889599;
+    border-radius: 40px;
+}
+
+.board-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.board-element:hover.line {
+    border-color: beige;
+}
+
+.named{
+    width: 1400px;
+}
+
+.named > div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.board-time-info > h2{
+    font-size: 32px;
+    font-family: "Esquina Rounded", sans-serif;
+}
+
+.board-time-info > p{
+    font-size: 20px;
+}
+
+.shedule-board{
+    padding: 100px 0 150px;
+}

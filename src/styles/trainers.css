@@ -1,0 +1,107 @@
+main {
+  padding: 0 200px;
+}
+.head {
+  padding: 100px 0 40px;
+  font-size: 48px;
+  width: 750px;
+}
+
+.ellipse {
+  z-index: -1;
+  position: absolute;
+  top: 470px;
+  left: 250px;
+  width: 600px;
+}
+
+.trainer-section {
+  padding-bottom: 150px;
+}
+
+.trainer {
+  width: 740px;
+  transition: transform 0.3s ease;
+}
+
+.trainer2 {
+  width: 560px;
+  padding: 0 100px 0 80px;
+  transition: transform 0.3s ease;
+}
+
+.trainer3 {
+  width: 470px;
+  padding: 0 0 0 120px;
+  margin-right: 130px;
+  transition: transform 0.3s ease;
+}
+
+.trainer:hover {
+  transform: scale(1.1);
+}
+
+.trainer2:hover {
+  transform: scale(1.1);
+}
+
+.trainer3:hover {
+  transform: scale(1.1);
+}
+
+.trainer-info {
+  padding-top: 80px;
+}
+
+.name-trainer {
+  font-size: 40px;
+  font-family: "Esquina Rounded", sans-serif;
+}
+
+.experience-trainer {
+  font-size: 24px;
+  color: #f1f1f1;
+  max-width: 900px;
+}
+
+.info-about-trainer {
+  font-size: 28px;
+  max-width: 900px;
+}
+
+.trainer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.trainer-slide {
+  display: none;
+  opacity: 0;
+  animation: fadeInOut 0.7s ease forwards;
+}
+
+.trainer-slide.active {
+  display: flex;
+}
+
+.arrow {
+  position: absolute;
+  right: 200px;
+  bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.arrow:hover {
+  transform: translateY(-5px);
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

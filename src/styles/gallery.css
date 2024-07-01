@@ -1,0 +1,53 @@
+.gallery{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-gallery{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-gallery > img {
+    width: 590px;
+    height: 640px;
+}
+
+.gallery-grid{
+    display: grid;
+    gap: 20px;
+}
+
+.gallery-grid > img{
+    width: 460px;
+    max-height: 500px;
+}
+
+.flex-grid-gallery{
+    display: grid;
+    gap: 20px;
+}
+
+.flex-grid-gallery > img {
+    width: 385px;
+}
+
+.galley-first{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gallery-last{
+    display: grid;
+    gap: 20px;
+}
+
+.gallery-last > img{
+    width: 1000px;
+}
+
+.gif{
+    border-radius: 20px;
+}

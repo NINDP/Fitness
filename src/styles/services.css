@@ -1,0 +1,120 @@
+main {
+  padding: 100px 200px;
+}
+
+.advertise-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 100px;
+}
+
+.head-advertise {
+  font-size: 28px;
+  font-family: "Esquina Rounded", sans-serif;
+  max-width: 500px;
+  padding-bottom: 150px;
+}
+
+.advertise-element {
+  padding: 10px 20px;
+  background-color: rgb(240, 240, 240, 30%);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.first-element {
+  width: 1200px;
+}
+
+.second-advertise-image {
+  width: 400px;
+}
+
+.second-element > p {
+  font-size: 20px;
+}
+
+.services-section {
+  padding-top: 40px;
+}
+
+.waterpool-service-image {
+  width: 1550px;
+}
+
+.waterpool-service {
+  position: relative;
+}
+
+.waterpool-service-text {
+  background-color: rgb(255, 255, 255, 80%);
+  color: #011c27;
+  max-width: 600px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  transition: padding 0.3s;
+}
+
+.waterpool-service-text:hover {
+  padding: 20px;
+}
+
+.waterpool-service-text > h3 {
+  font-family: "Esquina Rounded", sans-serif;
+  font-size: 36px;
+}
+
+.waterpool-service-text > p {
+  max-width: 560px;
+  font-size: 24px;
+}
+
+.fighting-text > h3 {
+  font-family: "Esquina Rounded", sans-serif;
+  font-size: 36px;
+}
+
+.fighting-text > p {
+  font-size: 24px;
+  max-width: 680px;
+}
+
+.fighting-service{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.fighting-service > img {
+  width: 810px;
+}
+
+.services-cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-cards > div > img {
+  width: 750px;
+}
+
+.fitness-service, .stretching-service {
+  position: relative;
+}
+
+.card-head{
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+  font-size: 32px;
+  font-family: "Esquina Rounded", sans-serif;
+}
+
+.fitness-service:hover, .stretching-service:hover .card-head {
+  color: #EB9FEF;
+}
